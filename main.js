@@ -8,7 +8,7 @@ btn.addEventListener('click', function() {
 
 ourRequest.onload = function() {
    var ourData = JSON.parse(ourRequest.responseText)
-   console.log(ourData[0])
+  
    renderHTML(ourData);
  
 };
